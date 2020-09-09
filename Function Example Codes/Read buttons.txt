@@ -1,0 +1,16 @@
+if(msg.payload === "BUTTON1;")
+{
+    msg.payload = "set.relay.1.1";
+    return msg;
+}
+else if(msg.payload === "BUTTON2;")
+{
+    msg.payload = "set.relay.1.0";
+    return msg;
+}
+else if(msg.payload === "BUTTON3;")
+{
+    msg.payload = "set.rgb.5";
+    return msg;
+}
+return msg;

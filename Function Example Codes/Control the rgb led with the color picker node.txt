@@ -1,0 +1,40 @@
+if(msg.payload.l == 1)
+{
+    msg.payload = "set.rgb.7";
+    return msg;
+}
+else if(msg.payload.l === 0)
+{
+    msg.payload = "set.rgb.0";
+    return msg;
+}
+else if(msg.payload.h < 30)
+{
+    msg.payload = "set.rgb.4";
+    return msg;
+}
+else if(msg.payload.h < 90)
+{
+    msg.payload = "set.rgb.6";
+    return msg;
+}
+else if(msg.payload.h < 150)
+{
+    msg.payload = "set.rgb.2";
+    return msg;
+}
+else if(msg.payload.h < 210)
+{
+    msg.payload = "set.rgb.3";
+    return msg;
+}
+else if(msg.payload.h < 270)
+{
+    msg.payload = "set.rgb.1";
+    return msg;
+}
+else if(msg.payload.h < 330)
+{
+    msg.payload = "set.rgb.5";
+    return msg;
+}
