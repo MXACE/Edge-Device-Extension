@@ -1,0 +1,15 @@
+%TF.GenerationSoftware,Altium Limited,Altium NEXUS,2.1.9 (83)*%
+G04 Layer_Color=8388736*
+%FSLAX44Y44*%
+%MOMM*%
+%TF.FileFunction,Other,Mechanical_2*%
+%TF.Part,Single*%
+G01*
+G75*
+%TA.AperFunction,NonConductor*%
+%ADD113C,0.1000*%
+D113*
+X255800Y444170D02*
+Y752170D01*
+%TF.MD5,54cae9c631beb9a386e0255ace588c05*%
+M02*

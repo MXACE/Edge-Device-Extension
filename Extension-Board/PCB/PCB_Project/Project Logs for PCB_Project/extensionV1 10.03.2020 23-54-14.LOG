@@ -1,0 +1,14 @@
+Added Pin To Net: NetName=+3.3 Pin=C17-1
+Added Pin To Net: NetName=+3.3 Pin=C18-2
+Added Pin To Net: NetName=+3.3 Pin=C19-2
+Added Pin To Net: NetName=+3.3 Pin=C20-1
+Added Pin To Net: NetName=+3.3 Pin=C21-2
+Added Pin To Net: NetName=+3.3 Pin=C22-2
+Added Pin To Net: NetName=+3.3 Pin=C23-2
+Added Pin To Net: NetName=+3.3 Pin=U4-1
+Added Room: Name=extension
+Added Room: Name=U_COM
+Added Room: Name=U_IO
+Added Room: Name=U_led
+Added Room: Name=U_sensor
+Added Room: Name=U_uc

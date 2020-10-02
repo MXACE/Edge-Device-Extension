@@ -1,0 +1,68 @@
+Removed Pin From Net: NetName=GND Pin=P9-0
+Removed Pin From Net: NetName=GND Pin=P9-0
+Removed Pin From Net: NetName=GND Pin=P9-0
+Removed Pin From Net: NetName=GND Pin=P9-0
+Removed Pin From Net: NetName=GND Pin=P9-0
+Removed Pin From Net: NetName=GND Pin=P9-0
+Removed Pin From Net: NetName=TEMP Pin=U3-1
+Removed Pin From Net: NetName=GND Pin=U5-1
+Removed Pin From Net: NetName=+3.3 Pin=U5-2
+Removed Pin From Net: NetName=+5 Pin=U5-3
+Removed Member From Class: ClassName=U_sensor Member=U3
+Removed Member From Class: ClassName=U_PWR Member=U5
+Change Component Footprint: Designator=P9 Old Footprint=Molex_micro_USB_bot mount New Footprint=MCR-B-S-RA-SMT-EH4B-T/R
+Change Component Footprint: Designator=U3 Old Footprint=NXP-SOD70_V New Footprint=MCHP-SOT-23-M5_V
+Change Component Comment : Designator=U3 Old Comment=KTY81/110,112 New Comment=MIC5504-3.3YM5-TR
+Change Component Comment : Designator=P9 Old Comment=USB_micro New Comment=USB Micro B
+Change component parameters: Designator = "P9"; Footprint = "MCR-B-S-RA-SMT-EH4B-T/R"; UniqueID = "\MHBNHCZP\QQKVUTHI"
+Change component parameters. Clean all parameters for all variants
+Change component parameters: Designator = "U3"; Footprint = "MCHP-SOT-23-M5_V"; UniqueID = "\MHBNHCZP\AZNMCPKQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case\/Package"; Value = "SOT-23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "Rev. 2.3, 04/2015"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Dropout Voltage"; Value = "160mV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "LeadFree"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Microchip"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.microchip.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Input Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "125degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Current Limit"; Value = "400mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Input Voltage"; Value = "2.5V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Nominal Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Regulators"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Current"; Value = "300mA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "5-Pin Small Outline Transistor, Body 1.6 x 2.9 mm, Pitch 0.95 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "SOT-23"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "CutTape"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "NoSVHC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Added Component: Designator=R61(RES_0402i_1005m -N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P9-6
+Added Pin To Net: NetName=GND Pin=P9-6
+Added Pin To Net: NetName=GND Pin=P9-6
+Added Pin To Net: NetName=GND Pin=P9-6
+Added Pin To Net: NetName=GND Pin=P9-6
+Added Pin To Net: NetName=GND Pin=P9-6
+Added Pin To Net: NetName=GND Pin=R61-1
+Added Pin To Net: NetName=TEMP Pin=R61-2
+Added Pin To Net: NetName=+5 Pin=U3-1
+Added Pin To Net: NetName=+5 Pin=U3-3
+Added Pin To Net: NetName=+3.3 Pin=U3-5
+Added Member To Class: ClassName=U_sensor Member=Component R61 10k,ptc
+Added Member To Class: ClassName=U_PWR Member=Component U3 MIC5504-3.3YM5-TR

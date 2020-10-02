@@ -1,0 +1,16 @@
+Added Room: Name=extension
+Added Room: Name=U_COM
+Added Room: Name=U_IO
+Added Room: Name=U_led
+Added Room: Name=U_PWR
+Added Room: Name=U_sensor
+Added Room: Name=U_uc
+Added Rule: Name=Schematic Clearance Constraint
+Added Rule: Name=Schematic Clearance Constraint_4
+Added Rule: Name=Schematic Clearance Constraint_5
+Added Rule: Name=Schematic Clearance Constraint_6
+Added Rule: Name=Schematic Clearance Constraint_7
+Added Rule: Name=Schematic Clearance Constraint_8
+Added Rule: Name=Schematic Clearance Constraint_9
+Added Rule: Name=Schematic Clearance Constraint_10
+Added Rule: Name=Schematic Clearance Constraint_11
